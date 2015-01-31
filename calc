@@ -1,0 +1,13 @@
+#calculator.py
+#This is a simple calculator
+
+def main():
+
+    print("You can do basic calculations")
+    number = eval(input("how many equations do you wish to evaluate? "))
+    
+    for i in range(number):
+        equation = eval(input("Enter an equation: "))
+        print(equation)
+        
+main()
